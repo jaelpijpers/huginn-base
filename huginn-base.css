@@ -1,0 +1,184 @@
+body {
+    background: var(--main-bg-color);
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    color: var(--text);
+}
+
+.navbar-default {
+    background: var(--modal-header-color);
+    border-color: var(--accent-color-hover);
+}
+
+.navbar-default .navbar-brand {
+    color: var(--accent-color);
+}
+
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: var(--link-color-hover);
+}
+
+.navbar-default .navbar-nav > li > a {
+    background: var(--modal-header-color);
+    color: var(--link-color);
+}
+
+.col-md-10 a {
+    color: var(--link-color);
+}
+
+p a {
+    color: var(--link-color);
+}
+
+.text-success {
+    color: var(--accent-color-hover);
+}
+
+.dropdown-hover .dropdown-menu {
+    background: var(--modal-header-color);
+    color: var(--button-color-text);
+}
+
+
+.dropdown-hover .dropdown-menu a {
+    background: var(--modal-header-color);
+    color: var(--button-color-text);
+}
+
+input {
+    border-color: var(--accent-color-hover);
+}
+
+.table-responsive > .table > tbody > tr > th {
+    background: var(--modal-header-color);
+    color: var(--text);
+}
+
+.table-responsive > .table > tbody > tr > td {
+    background: var(--modal-header-color);
+    color: var(--text);
+}
+
+
+.page-header {
+    color: var(--text);
+}
+
+th a {
+    color: var(--button-color);
+}
+
+td > a {
+    color: var(--accent-color-hover);
+}
+
+.btn {
+    background: var(--button-color);
+    color: var(--button-color-text);
+}
+
+.job-indicator .badge {
+    background: var(--button-color);
+    color: var(--text);
+}
+
+.glyphicon-refresh.icon-white {
+    color: var(--text);
+}
+
+.job-indicator .number {
+    color: var(--text);
+}
+
+#event-indicator .badge {
+    background: var(--button-color);
+    color: var(--text);
+}
+
+.glyphicon-random.icon-white {
+    color: var(--button-color-text);
+}
+
+
+.pagination > .active > a {
+    background: var(--button-color-hover);
+    color: var(--button-text-hover);
+}
+
+.pagination > li > a {
+    background: var(--accent-color);
+    color: var(--button-text);
+}
+
+.table > tbody > tr > td {
+    background: var(--modal-header-color);
+    color: var(--text);
+}
+
+.table > tbody > tr > th {
+    background: var(--modal-header-color);
+    color: var(--text);
+}
+
+
+.table > tbody > tr:nth-child(n) > th:nth-child(n) {
+    background: var(--modal-header-color);
+    color: var(--text);
+}
+
+.table > tbody > tr:nth-child(n) > td:nth-child(n) {
+    background: var(--modal-header-color);
+    color: var(--text);
+}
+
+
+.well {
+    background: var(--modal-header-color);
+    border-color: var(--accent-color-hover);
+}
+
+.well a {
+    color: var(--link-color);
+}
+
+
+.graph > polygon {
+    fill: var(--main-bg-color);
+    fill-opacity: 0%;
+}
+
+text {
+    fill: var(--text);
+    fill-opacity: 100%;
+}
+
+.select2-search {
+    background: var(--modal-header-color);
+    color: var(--button-color-text);
+}
+
+.select2-drop {
+    background: var(--modal-header-color);
+    color: var(--button-color-text);
+}
+
+.json-editor blockquote {
+    background: var(--modal-header-color);
+    color: var(--button-color-text);
+}
+
+.json-editor .icon {
+    color: var(--accent-color-hover);
+}
+
+.json-editor div {
+    background: var(--modal-header-color);
+    color: var(--button-color-text);
+}
